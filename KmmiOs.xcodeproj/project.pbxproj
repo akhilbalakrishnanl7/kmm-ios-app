@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		972356CB2AD964CF003694D1 /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 972356CA2AD964CF003694D1 /* shared */; };
 		974CE8362AD93DEF00C4E261 /* KmmiOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8352AD93DEF00C4E261 /* KmmiOsApp.swift */; };
 		974CE8382AD93DEF00C4E261 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8372AD93DEF00C4E261 /* ContentView.swift */; };
 		974CE83A2AD93DF100C4E261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974CE8392AD93DF100C4E261 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972356CB2AD964CF003694D1 /* shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = KmmiOs;
+			packageProductDependencies = (
+				972356CA2AD964CF003694D1 /* shared */,
+			);
 			productName = KmmiOs;
 			productReference = 974CE8322AD93DEF00C4E261 /* KmmiOs.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 974CE8292AD93DEF00C4E261;
+			packageReferences = (
+				972356C92AD964CF003694D1 /* XCRemoteSwiftPackageReference "kmmlibrary-iOS" */,
+			);
 			productRefGroup = 974CE8332AD93DEF00C4E261 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -582,6 +590,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		972356C92AD964CF003694D1 /* XCRemoteSwiftPackageReference "kmmlibrary-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/akhilbalakrishnanl7/kmmlibrary-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		972356CA2AD964CF003694D1 /* shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 972356C92AD964CF003694D1 /* XCRemoteSwiftPackageReference "kmmlibrary-iOS" */;
+			productName = shared;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 974CE82A2AD93DEF00C4E261 /* Project object */;
 }

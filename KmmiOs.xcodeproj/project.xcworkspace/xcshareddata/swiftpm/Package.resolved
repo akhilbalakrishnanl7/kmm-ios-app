@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "kmmlibrary-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/akhilbalakrishnanl7/kmmlibrary-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ff14130ce7c2c5939c57811f6c3120c58a253cc9"
+      }
+    }
+  ],
+  "version" : 2
+}
