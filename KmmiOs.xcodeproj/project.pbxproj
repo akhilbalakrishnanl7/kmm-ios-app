@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974CE8362AD93DEF00C4E261 /* KmmiOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8352AD93DEF00C4E261 /* KmmiOsApp.swift */; };
+		974CE8382AD93DEF00C4E261 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8372AD93DEF00C4E261 /* ContentView.swift */; };
+		974CE83A2AD93DF100C4E261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974CE8392AD93DF100C4E261 /* Assets.xcassets */; };
+		974CE83D2AD93DF100C4E261 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974CE83C2AD93DF100C4E261 /* Preview Assets.xcassets */; };
+		974CE8472AD93DF100C4E261 /* KmmiOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8462AD93DF100C4E261 /* KmmiOsTests.swift */; };
+		974CE8512AD93DF100C4E261 /* KmmiOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8502AD93DF100C4E261 /* KmmiOsUITests.swift */; };
+		974CE8532AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8522AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		974CE8432AD93DF100C4E261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974CE82A2AD93DEF00C4E261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974CE8312AD93DEF00C4E261;
+			remoteInfo = KmmiOs;
+		};
+		974CE84D2AD93DF100C4E261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974CE82A2AD93DEF00C4E261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974CE8312AD93DEF00C4E261;
+			remoteInfo = KmmiOs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		974CE8322AD93DEF00C4E261 /* KmmiOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KmmiOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974CE8352AD93DEF00C4E261 /* KmmiOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmiOsApp.swift; sourceTree = "<group>"; };
+		974CE8372AD93DEF00C4E261 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		974CE8392AD93DF100C4E261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		974CE83C2AD93DF100C4E261 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		974CE8422AD93DF100C4E261 /* KmmiOsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmmiOsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		974CE8462AD93DF100C4E261 /* KmmiOsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmiOsTests.swift; sourceTree = "<group>"; };
+		974CE84C2AD93DF100C4E261 /* KmmiOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmmiOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		974CE8502AD93DF100C4E261 /* KmmiOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmiOsUITests.swift; sourceTree = "<group>"; };
+		974CE8522AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmiOsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		974CE82F2AD93DEF00C4E261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CE83F2AD93DF100C4E261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CE8492AD93DF100C4E261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974CE8292AD93DEF00C4E261 = {
+			isa = PBXGroup;
+			children = (
+				974CE8342AD93DEF00C4E261 /* KmmiOs */,
+				974CE8452AD93DF100C4E261 /* KmmiOsTests */,
+				974CE84F2AD93DF100C4E261 /* KmmiOsUITests */,
+				974CE8332AD93DEF00C4E261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		974CE8332AD93DEF00C4E261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974CE8322AD93DEF00C4E261 /* KmmiOs.app */,
+				974CE8422AD93DF100C4E261 /* KmmiOsTests.xctest */,
+				974CE84C2AD93DF100C4E261 /* KmmiOsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974CE8342AD93DEF00C4E261 /* KmmiOs */ = {
+			isa = PBXGroup;
+			children = (
+				974CE8352AD93DEF00C4E261 /* KmmiOsApp.swift */,
+				974CE8372AD93DEF00C4E261 /* ContentView.swift */,
+				974CE8392AD93DF100C4E261 /* Assets.xcassets */,
+				974CE83B2AD93DF100C4E261 /* Preview Content */,
+			);
+			path = KmmiOs;
+			sourceTree = "<group>";
+		};
+		974CE83B2AD93DF100C4E261 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				974CE83C2AD93DF100C4E261 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		974CE8452AD93DF100C4E261 /* KmmiOsTests */ = {
+			isa = PBXGroup;
+			children = (
+				974CE8462AD93DF100C4E261 /* KmmiOsTests.swift */,
+			);
+			path = KmmiOsTests;
+			sourceTree = "<group>";
+		};
+		974CE84F2AD93DF100C4E261 /* KmmiOsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				974CE8502AD93DF100C4E261 /* KmmiOsUITests.swift */,
+				974CE8522AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift */,
+			);
+			path = KmmiOsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		974CE8312AD93DEF00C4E261 /* KmmiOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974CE8562AD93DF100C4E261 /* Build configuration list for PBXNativeTarget "KmmiOs" */;
+			buildPhases = (
+				974CE82E2AD93DEF00C4E261 /* Sources */,
+				974CE82F2AD93DEF00C4E261 /* Frameworks */,
+				974CE8302AD93DEF00C4E261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KmmiOs;
+			productName = KmmiOs;
+			productReference = 974CE8322AD93DEF00C4E261 /* KmmiOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		974CE8412AD93DF100C4E261 /* KmmiOsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974CE8592AD93DF100C4E261 /* Build configuration list for PBXNativeTarget "KmmiOsTests" */;
+			buildPhases = (
+				974CE83E2AD93DF100C4E261 /* Sources */,
+				974CE83F2AD93DF100C4E261 /* Frameworks */,
+				974CE8402AD93DF100C4E261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974CE8442AD93DF100C4E261 /* PBXTargetDependency */,
+			);
+			name = KmmiOsTests;
+			productName = KmmiOsTests;
+			productReference = 974CE8422AD93DF100C4E261 /* KmmiOsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		974CE84B2AD93DF100C4E261 /* KmmiOsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974CE85C2AD93DF100C4E261 /* Build configuration list for PBXNativeTarget "KmmiOsUITests" */;
+			buildPhases = (
+				974CE8482AD93DF100C4E261 /* Sources */,
+				974CE8492AD93DF100C4E261 /* Frameworks */,
+				974CE84A2AD93DF100C4E261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974CE84E2AD93DF100C4E261 /* PBXTargetDependency */,
+			);
+			name = KmmiOsUITests;
+			productName = KmmiOsUITests;
+			productReference = 974CE84C2AD93DF100C4E261 /* KmmiOsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974CE82A2AD93DEF00C4E261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					974CE8312AD93DEF00C4E261 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					974CE8412AD93DF100C4E261 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 974CE8312AD93DEF00C4E261;
+					};
+					974CE84B2AD93DF100C4E261 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 974CE8312AD93DEF00C4E261;
+					};
+				};
+			};
+			buildConfigurationList = 974CE82D2AD93DEF00C4E261 /* Build configuration list for PBXProject "KmmiOs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974CE8292AD93DEF00C4E261;
+			productRefGroup = 974CE8332AD93DEF00C4E261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				974CE8312AD93DEF00C4E261 /* KmmiOs */,
+				974CE8412AD93DF100C4E261 /* KmmiOsTests */,
+				974CE84B2AD93DF100C4E261 /* KmmiOsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		974CE8302AD93DEF00C4E261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974CE83D2AD93DF100C4E261 /* Preview Assets.xcassets in Resources */,
+				974CE83A2AD93DF100C4E261 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CE8402AD93DF100C4E261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CE84A2AD93DF100C4E261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974CE82E2AD93DEF00C4E261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974CE8382AD93DEF00C4E261 /* ContentView.swift in Sources */,
+				974CE8362AD93DEF00C4E261 /* KmmiOsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CE83E2AD93DF100C4E261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974CE8472AD93DF100C4E261 /* KmmiOsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CE8482AD93DF100C4E261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974CE8532AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift in Sources */,
+				974CE8512AD93DF100C4E261 /* KmmiOsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		974CE8442AD93DF100C4E261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 974CE8312AD93DEF00C4E261 /* KmmiOs */;
+			targetProxy = 974CE8432AD93DF100C4E261 /* PBXContainerItemProxy */;
+		};
+		974CE84E2AD93DF100C4E261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 974CE8312AD93DEF00C4E261 /* KmmiOs */;
+			targetProxy = 974CE84D2AD93DF100C4E261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		974CE8542AD93DF100C4E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		974CE8552AD93DF100C4E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		974CE8572AD93DF100C4E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KmmiOs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litmus7.KmmiOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		974CE8582AD93DF100C4E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KmmiOs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litmus7.KmmiOs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		974CE85A2AD93DF100C4E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litmus7.KmmiOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmmiOs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmmiOs";
+			};
+			name = Debug;
+		};
+		974CE85B2AD93DF100C4E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litmus7.KmmiOsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmmiOs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmmiOs";
+			};
+			name = Release;
+		};
+		974CE85D2AD93DF100C4E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litmus7.KmmiOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmmiOs;
+			};
+			name = Debug;
+		};
+		974CE85E2AD93DF100C4E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litmus7.KmmiOsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmmiOs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974CE82D2AD93DEF00C4E261 /* Build configuration list for PBXProject "KmmiOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974CE8542AD93DF100C4E261 /* Debug */,
+				974CE8552AD93DF100C4E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974CE8562AD93DF100C4E261 /* Build configuration list for PBXNativeTarget "KmmiOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974CE8572AD93DF100C4E261 /* Debug */,
+				974CE8582AD93DF100C4E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974CE8592AD93DF100C4E261 /* Build configuration list for PBXNativeTarget "KmmiOsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974CE85A2AD93DF100C4E261 /* Debug */,
+				974CE85B2AD93DF100C4E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974CE85C2AD93DF100C4E261 /* Build configuration list for PBXNativeTarget "KmmiOsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974CE85D2AD93DF100C4E261 /* Debug */,
+				974CE85E2AD93DF100C4E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974CE82A2AD93DEF00C4E261 /* Project object */;
+}
