@@ -15,6 +15,7 @@
 		974CE8472AD93DF100C4E261 /* KmmiOsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8462AD93DF100C4E261 /* KmmiOsTests.swift */; };
 		974CE8512AD93DF100C4E261 /* KmmiOsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8502AD93DF100C4E261 /* KmmiOsUITests.swift */; };
 		974CE8532AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974CE8522AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift */; };
+		97E9D5A02ADC5CBF00E56936 /* RocketLaunchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9D59F2ADC5CBF00E56936 /* RocketLaunchRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		974CE84C2AD93DF100C4E261 /* KmmiOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmmiOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		974CE8502AD93DF100C4E261 /* KmmiOsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmiOsUITests.swift; sourceTree = "<group>"; };
 		974CE8522AD93DF100C4E261 /* KmmiOsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmiOsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97E9D59F2ADC5CBF00E56936 /* RocketLaunchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				974CE8372AD93DEF00C4E261 /* ContentView.swift */,
 				974CE8392AD93DF100C4E261 /* Assets.xcassets */,
 				974CE83B2AD93DF100C4E261 /* Preview Content */,
+				97E9D59F2ADC5CBF00E56936 /* RocketLaunchRow.swift */,
 			);
 			path = KmmiOs;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E9D5A02ADC5CBF00E56936 /* RocketLaunchRow.swift in Sources */,
 				974CE8382AD93DEF00C4E261 /* ContentView.swift in Sources */,
 				974CE8362AD93DEF00C4E261 /* KmmiOsApp.swift in Sources */,
 			);

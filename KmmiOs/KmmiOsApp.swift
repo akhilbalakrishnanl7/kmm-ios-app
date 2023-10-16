@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import shared
 
+/**
+ * KmmiOsApp is the entry point of the application. Here we are initializing the SDK, View and ViewModel
+ */
 @main
 struct KmmiOsApp: App {
+    
+    let sdk = SpaceXSDK(databaseDriverFactory: DatabaseDriverFactory())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: .init(sdk: sdk))
         }
     }
 }
